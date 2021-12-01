@@ -1,0 +1,1 @@
+export { StoriesComponent } from './src/StoriesComponent.js';
