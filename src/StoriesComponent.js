@@ -60,6 +60,15 @@ export class StoriesComponent extends LitElement {
         <div class="storie">
           <img src="https://estaticos-cdn.sport.es/clip/4ebbf6db-4d24-4861-9f46-90262630b3a6_alta-libre-aspect-ratio_default_0.jpg" alt="MDN">
         </div>
+        <div class="storie">
+          <img src="https://www.hazunaweb.com/imagenes/prueba.jpg" alt="MDN">
+        </div>
+        <div class="storie">
+          <img src="https://www.futbolred.com/files/article_main/uploads/2021/11/29/61a4f0e6c0b74.jpeg" alt="MDN">
+        </div>
+        <div class="storie">
+          <img src="https://editorial.uefa.com/resources/026c-12f705c46a6c-9f2eb0579483-1000/messi_graphic.jpg" alt="MDN">
+        </div>
       </div>
     `;
   }
