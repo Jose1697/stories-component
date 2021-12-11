@@ -29,7 +29,17 @@
     <bbva-core-demo-helper>
       <bbva-core-demo-case heading="Basic" description="Default specs">
         <template>
-          <stories-component></stories-component>
+          <stories-component id="demo">
+          </stories-component>
+          <script type="module">
+            document.addEventListener('WebComponentsReady', async () => {
+              let component = await fetch('./data/data.json').then((reponse) =>
+                reponse.json()
+              );
+              let demo = document.querySelector('#demo');
+              demo.stories = component.stories;
+            });
+          </script>
         </template>
       </bbva-core-demo-case>
     </bbva-core-demo-helper>
